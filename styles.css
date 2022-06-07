@@ -11,20 +11,21 @@ body {
     cursor: pointer;
 }
 
-nav{
+nav {
     background-color: #111;
     color: #fff;
     padding: 20px 50px;
 }
 
 /*nav top container*/
-.nav-top{
+.nav-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 /*search container*/
-.search{
+.search {
     display: flex;
     align-items: center;
     background-color: gray;
@@ -32,30 +33,44 @@ nav{
     border-radius: 10px;
 }
 
-.search-input{
+.search-input {
     border: none;
     background-color: transparent;
 }
+
 /*search text*/
-.search-input::placeholder{
+.search-input::placeholder {
     color: lightgray;
 }
-.limited-offer{
+
+.limited-offer {
     font-size: 20px;
     border-bottom: 2px solid red;
     cursor: pointer;
 }
 
 /*@@@@@ nav-bottom @@@@@*/
-.nav-bottom{
+.nav-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.menu-item{
+.menu-item {
     margin-right: 50px;
     cursor: pointer;
     color: lightgrey;
     font-weight: 400;
+}
+
+/*@@@@@ slider @@@@@*/
+.slider {
+    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+}
+
+.slider-wrapper{
+    
 }
