@@ -15,6 +15,7 @@ nav {
     background-color: #111;
     color: #fff;
     padding: 20px 50px;
+    height: 80%;
 }
 
 /*nav top container*/
@@ -69,6 +70,8 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+    /*delete horizontal bar scroll*/
+    overflow: hidden;
 }
 
 /*slider container*/
