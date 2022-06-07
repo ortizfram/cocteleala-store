@@ -148,5 +148,18 @@ nav {
 /*# seleccting slides backgrounds (nth-child(x)) #*/
 .slider-item:nth-child(1) .slider-circle{
     background-color: red;
+}
+.slider-item:nth-child(2) .slider-circle{
+    background-color: #369e92;
+}
+.slider-item:nth-child(3) .slider-circle{
+    background-color: rebeccapurple;
+}
+.slider-item:nth-child(4) .slider-circle{
+    background-color: cornflowerblue;
+}
 
+/*# slider price color background*/
+.slider-item:nth-child(1) .slider-price{
+    /* color: red */
 }
