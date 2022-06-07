@@ -76,6 +76,8 @@ nav {
     display: flex;
     /*--all page 4 each item*/
     width: 500vw;
+    /*transition of all animation*/
+    transition: all 1s ease-in-out;
 }
 
 .slider-item {
@@ -100,6 +102,8 @@ nav {
 .slider img{
     /*-- to be on circle*/
     z-index: 1;
+    height: 100vh;
+   
 }
 
 .slider-tittle {
