@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', 'sans-serif';
+    font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -78,7 +78,7 @@ nav {
     width: 500vw;
 }
 
-.slider-item{
+.slider-item {
     /*--all page 4 each item*/
     width: 100vw;
     display: flex;
@@ -87,13 +87,43 @@ nav {
     /*--to not hide behind navbar*/
     position: relative;
 }
+
+.slider-circle {
+    width: 1300px;
+    height: 1300px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
+
 /*# moving card items in screen --position absolute*/
 /*-------*/
-.slider-tittle{
-    position: absolute;
-    left: 0;
-    right: 0;
+.slider img{
+    /*-- to be on circle*/
+    z-index: 1;
 }
-.slider-price{
+
+.slider-tittle {
     position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    /*-- to be on circle*/
+    z-index: 1;
+}
+
+.slider-price {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    border: 1px solid gray;
+    /*-- to be on circle*/
+    z-index: 1;
 }
