@@ -1,172 +1,189 @@
 body {
-    font-family: 'Lato', sans-serif;
-    padding: 0;
-    margin: 0;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 /*@@@@@ nav-top @@@@@*/
 /*logo*/
 .nav-top img {
-    width: 8vw;
-    cursor: pointer;
+  width: 8vw;
+  cursor: pointer;
 }
 
 nav {
-    background-color: #111;
-    color: #fff;
-    padding: 20px 50px;
-    height: 80%;
+  background-color: #111;
+  color: #fff;
+  padding: 20px 50px;
+  height: 80%;
 }
 
 /*nav top container*/
 .nav-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*search container*/
 .search {
-    display: flex;
-    align-items: center;
-    background-color: gray;
-    padding: 10px 20px;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 .search-input {
-    border: none;
-    background-color: transparent;
+  border: none;
+  background-color: transparent;
 }
 
 /*search text*/
 .search-input::placeholder {
-    color: lightgray;
+  color: lightgray;
 }
 
 .limited-offer {
-    font-size: 20px;
-    border-bottom: 2px solid red;
-    cursor: pointer;
+  font-size: 20px;
+  border-bottom: 2px solid red;
+  cursor: pointer;
 }
 
 /*@@@@@ nav-bottom @@@@@*/
 .nav-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-item {
-    margin-right: 50px;
-    cursor: pointer;
-    color: lightgrey;
-    font-weight: 400;
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgrey;
+  font-weight: 400;
 }
 
 /*@@@@@ slider @@@@@*/
 .slider {
-    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
-    /*delete horizontal bar scroll*/
-    overflow: hidden;
+  background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+  /*delete horizontal bar scroll*/
+  overflow: hidden;
 }
 
 /*slider container*/
 .slider-wrapper {
-    display: flex;
-    /*--all page 4 each item*/
-    width: 500vw;
-    /*transition of all animation*/
-    transition: all 1s ease-in-out;
+  display: flex;
+  /*--all page 4 each item*/
+  width: 500vw;
+  /*transition of all animation*/
+  transition: all 1s ease-in-out;
 }
 
 .slider-item {
-    /*--all page 4 each item*/
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*--to not hide behind navbar*/
-    position: relative;
+  /*--all page 4 each item*/
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*--to not hide behind navbar*/
+  position: relative;
 }
 
 .slider-circle {
-    width: 1300px;
-    height: 1300px;
-    border-radius: 50%;
-    position: absolute;
+  width: 1300px;
+  height: 1300px;
+  border-radius: 50%;
+  position: absolute;
 }
 
 /*# moving card items in screen --position absolute*/
 /*-------*/
-.slider img{
-    /*-- to be on circle*/
-    z-index: 1;
-    height: 100vh;
-   
+.slider img {
+  /*-- to be on circle*/
+  z-index: 1;
+  height: 100vh;
 }
 
 .slider-tittle {
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    font-size: 60px;
-    font-weight: 900;
-    text-align: center;
-    color: #fff;
-    /*-- to be on circle*/
-    z-index: 1;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  /*-- to be on circle*/
+  z-index: 1;
 }
 
 .slider-price {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    font-size: 60px;
-    font-weight: 300;
-    text-align: center;
-    color: #fff;
-    border: 1px solid gray;
-    /*-- to be on circle*/
-    z-index: 1;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  border: 1px solid gray;
+  /*-- to be on circle*/
+  z-index: 1;
 }
 
 .buy-button {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    font-size: 60px;
-    font-weight: 900;
-    color: #fff;
-    background-color: #111;
-    border: 1px solid gray;
-    cursor: pointer;
-    /*-- to be on circle*/
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 60px;
+  font-weight: 900;
+  color: #fff;
+  background-color: #111;
+  border: 1px solid gray;
+  cursor: pointer;
+  /*-- to be on circle*/
+  z-index: 1;
 }
-.buy-button:hover{
-    background-color: #fff;
-    color: #000;
+.buy-button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 /*# seleccting slides backgrounds (nth-child(x)) #*/
-.slider-item:nth-child(1) .slider-circle{
-    background-color: red;
+.slider-item:nth-child(1) .slider-circle {
+  background-color: red;
 }
-.slider-item:nth-child(2) .slider-circle{
-    background-color: #369e92;
+.slider-item:nth-child(2) .slider-circle {
+  background-color: #369e92;
 }
-.slider-item:nth-child(3) .slider-circle{
-    background-color: rebeccapurple;
+.slider-item:nth-child(3) .slider-circle {
+  background-color: rebeccapurple;
 }
-.slider-item:nth-child(4) .slider-circle{
-    background-color: cornflowerblue;
+.slider-item:nth-child(4) .slider-circle {
+  background-color: cornflowerblue;
 }
 
 /*# slider price color background*/
-.slider-item:nth-child(1) .slider-price{
-    /* color: red */
+.slider-item:nth-child(1) .slider-price {
+  /* color: red */
+}
+
+/*@@@@@ features @@@@@*/
+/*features container*/
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.feature{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.feature img {
+    width: 8vw;
+    height: 8vw;
 }
