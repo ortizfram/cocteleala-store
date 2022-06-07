@@ -71,6 +71,29 @@ nav {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
 }
 
-.slider-wrapper{
-    
+/*slider container*/
+.slider-wrapper {
+    display: flex;
+    /*--all page 4 each item*/
+    width: 500vw;
+}
+
+.slider-item{
+    /*--all page 4 each item*/
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*--to not hide behind navbar*/
+    position: relative;
+}
+/*# moving card items in screen --position absolute*/
+/*-------*/
+.slider-tittle{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.slider-price{
+    position: absolute;
 }
