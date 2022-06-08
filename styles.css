@@ -220,3 +220,7 @@ nav {
   /*space*/
   padding: 50px;
 }
+.product-tittle{
+  font-size: 75px;
+  font-weight: 900;
+}
