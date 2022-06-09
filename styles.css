@@ -224,3 +224,21 @@ nav {
   font-size: 75px;
   font-weight: 900;
 }
+.product-description{
+  font-size: 24px;
+  color: gray;
+}
+.product-button{
+  float: right;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.product-button:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+/*@@@@@ modal 4 payment button @@@@@*/
