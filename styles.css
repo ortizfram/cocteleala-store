@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Lato", sans-serif;
   padding: 0;
@@ -220,15 +223,15 @@ nav {
   /*space*/
   padding: 50px;
 }
-.product-tittle{
+.product-tittle {
   font-size: 75px;
   font-weight: 900;
 }
-.product-description{
+.product-description {
   font-size: 24px;
   color: gray;
 }
-.product-button{
+.product-button {
   float: right;
   padding: 10px 20px;
   background-color: #000;
@@ -236,9 +239,62 @@ nav {
   font-weight: 600;
   cursor: pointer;
 }
-.product-button:hover{
+.product-button:hover {
   color: #000;
   background-color: #fff;
 }
 
-/*@@@@@ modal 4 payment button @@@@@*/
+/*@@@@@ payment @@@@@*/
+.payment {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  /* # box shadow*/
+  -webkit-box-shadow: 2px 16px 48px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 16px 48px 10px rgba(0, 0, 0, 0.6);
+}
+.pay-tittle{
+  font-size: 20px;
+  color: rgb(178, 178, 178);
+}
+label{
+  font-size: 14px;
+  font-weight: 300;
+}
+.pay-input{
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 1px solid red;
+}
+.pay-input::placeholder{
+  color: rgb(151, 151, 151);
+}
+.card-icons{
+  width: 30%;
+  display: flex;
+}
+.card-icon{
+  margin: 10px;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+.sm { 
+  width: 30%;
+}
+.pay-button{
+  position: absolute;
+  height: 40px;
+  bottom: -40px;
+}
