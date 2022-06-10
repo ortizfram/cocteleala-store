@@ -262,38 +262,38 @@ nav {
   -webkit-box-shadow: 2px 16px 48px 10px rgba(0, 0, 0, 0.6);
   box-shadow: 2px 16px 48px 10px rgba(0, 0, 0, 0.6);
 }
-.pay-tittle{
+.pay-tittle {
   font-size: 20px;
   color: rgb(178, 178, 178);
 }
-label{
+label {
   font-size: 14px;
   font-weight: 300;
 }
-.pay-input{
+.pay-input {
   padding: 10px;
   margin: 10px 0;
   border: none;
   border-bottom: 1px solid red;
 }
-.pay-input::placeholder{
+.pay-input::placeholder {
   color: rgb(151, 151, 151);
 }
-.card-icons{
+.card-icons {
   width: 30%;
   display: flex;
 }
-.card-icon{
+.card-icon {
   margin: 10px;
 }
 .card-info {
   display: flex;
   justify-content: space-between;
 }
-.sm { 
+.sm {
   width: 30%;
 }
-.pay-button{
+.pay-button {
   position: absolute;
   height: 40px;
   bottom: -40px;
@@ -306,7 +306,7 @@ label{
   border: none;
   cursor: pointer;
 }
-.close{
+.close {
   position: absolute;
   width: 20px;
   height: 20px;
@@ -319,4 +319,11 @@ label{
   justify-content: center;
   cursor: pointer;
   padding: 2px;
+}
+/*-------------------------------------------------------------------
+========================================================================
+@@@@@ RESPONSIVE @@@@@*/
+
+/* # mobile breakpoint : less than 480px*/
+@media screen and (max-width: 480px) {
 }
